@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      cursor: none;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    var cursorImage = new Image();
+    cursorImage.src = 'https://ani.cursors-4u.net/cursors/images13/cur1157.gif';
+    cursorImage.onload = function() {
+      var cursorWidth = 32; // Set the desired width of the cursor
+      var cursorHeight = 32; // Set the desired height of the cursor
+      document.body.style.cursor = 'url("' + cursorImage.src + '") ' + (cursorWidth / 2) + ' ' + (cursorHeight / 2) + ', auto';
+    };
+  </script>
+</body>
+</html>
